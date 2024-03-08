@@ -1,7 +1,7 @@
 #Module      : Labels
 #Description : Terraform module to create consistent naming for multiple names.
 module "labels" {
-  source      = "git::git@github.com:slovink/terraform-aws-labels.git"
+  source      = "git::git@github.com:slovink/terraform-aws-labels.git?ref=1.0.0"
   name        = var.name
   environment = var.environment
   attributes  = var.attributes

@@ -8,11 +8,7 @@ variable "path" {
   default     = "/"
   description = "The path of the policy in MFA."
 }
-variable "Policy" {
-  type        = any
-  default     = ""
-  description = "The policy in json"
-}
+
 variable "attributes" {
   type        = list(any)
   default     = []
